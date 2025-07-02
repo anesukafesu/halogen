@@ -67,24 +67,17 @@ const Contact = () => {
           </div>
           <div className="flex flex-col justify-center space-y-8">
             <div className="flex items-start space-x-4">
-              <div className="bg-slate-800 p-3 rounded-full text-cyan-400"><MapPinIcon /></div>
-              <div>
-                <h3 className="text-xl font-semibold text-white">Our Office</h3>
-                <p className="text-slate-400">123 KG Avenue, Kimihurura<br />Kigali, Rwanda</p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
               <div className="bg-slate-800 p-3 rounded-full text-cyan-400"><MailIcon /></div>
               <div>
                 <h3 className="text-xl font-semibold text-white">Email Us</h3>
-                <p className="text-slate-400 hover:text-cyan-400 transition-colors"><a href="mailto:hello@halogen.rw">hello@halogen.rw</a></p>
+                <p className="text-slate-400 hover:text-cyan-400 transition-colors"><a href="mailto:hello@halogen.rw">sales@halogenapps.com</a></p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <div className="bg-slate-800 p-3 rounded-full text-cyan-400"><PhoneIcon /></div>
               <div>
                 <h3 className="text-xl font-semibold text-white">Call Us</h3>
-                <p className="text-slate-400 hover:text-cyan-400 transition-colors"><a href="tel:+250788123456">+250 788 123 456</a></p>
+                <p className="text-slate-400 hover:text-cyan-400 transition-colors"><a href="tel:+250788123456">+250 799 369 120</a></p>
               </div>
             </div>
           </div>

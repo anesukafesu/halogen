@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Logo = () => (
@@ -46,24 +45,24 @@ const Footer = () => {
                            <li><a href="#products" className="text-slate-400 hover:text-cyan-400 transition-colors">Products</a></li>
                            <li><a href="#about" className="text-slate-400 hover:text-cyan-400 transition-colors">About Us</a></li>
                            <li><a href="#contact" className="text-slate-400 hover:text-cyan-400 transition-colors">Contact</a></li>
+                           <li><a href="/privacy" className="text-slate-400 hover:text-cyan-400 transition-colors">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-white font-semibold tracking-wider">Contact</h3>
                         <ul className="mt-4 space-y-2 text-slate-400">
-                           <li>123 KG Avenue, Kigali</li>
-                           <li><a href="mailto:hello@halogen.rw" className="hover:text-cyan-400 transition-colors">hello@halogen.rw</a></li>
-                           <li><a href="tel:+250788123456" className="hover:text-cyan-400 transition-colors">+250 788 123 456</a></li>
+                           <li><a href="mailto:hello@halogen.rw" className="hover:text-cyan-400 transition-colors">sales@halogenapps.com</a></li>
+                           <li><a href="tel:+250788123456" className="hover:text-cyan-400 transition-colors">+250 799 369 120</a></li>
                         </ul>
                     </div>
-                    <div>
+                    {/* <div>
                         <h3 className="text-white font-semibold tracking-wider">Follow Us</h3>
                         <div className="flex space-x-4 mt-4">
                             <SocialIcon href="#"><TwitterIcon /></SocialIcon>
                             <SocialIcon href="#"><LinkedInIcon /></SocialIcon>
                             <SocialIcon href="#"><GithubIcon /></SocialIcon>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="mt-12 border-t border-slate-700/50 pt-8 text-center text-slate-500 text-sm">
                     <p>&copy; {new Date().getFullYear()} Halogen Technologies Ltd. All Rights Reserved.</p>
